@@ -38,4 +38,4 @@ install:
 
 script:
   # Check the role/playbook's syntax.
-  - ansible-playbook -i tests/inventory playbook.yml --syntax-check
+  - ansible-playbook -i tests/inventory nginx.yaml --syntax-check
