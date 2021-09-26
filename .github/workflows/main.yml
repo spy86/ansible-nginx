@@ -14,5 +14,5 @@ jobs:
       - name: Play Ansible Playbook
         uses: arillso/action.playbook@master
         with:
-          playbook: nginx.yml
+          playbook: nginx.yaml
           syntax_check: true
